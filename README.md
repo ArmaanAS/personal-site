@@ -13,7 +13,7 @@ This is a work-in-progress personal web app for myself. It uses:
 First install all npm dependencies with
 
 ```cmd
-npm init
+npm install
 ```
 
 ## Start
