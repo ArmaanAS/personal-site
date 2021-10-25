@@ -20,7 +20,7 @@
     <!-- <hr class="border border-purple-tile mb-8 border-double"/> -->
     
     
-    <TabGroup>
+    <TabGroup :default-index="3">
       <TabList class="flex justify-center items-center space-x-4 mb-6
         text-body font-semibold text-lg tracking-tight">
         <Tab v-for="tab in tabs" :key="tab"
