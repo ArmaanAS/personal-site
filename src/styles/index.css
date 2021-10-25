@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    #app {
+        @apply h-screen w-screen bg-purple-backdrop max-h-screen p-8 shadow-inner-xl;
+    }
+
+    button {
+        @apply outline-none focus:ring;
+    }
+}
+
+@layer utilities {
+    .text-shadow {
+        text-shadow: black 0px 0px 2px;
+    }
+
+    .text-shadow-md {
+        text-shadow: black 0px 0px 4px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 12px;
+        display: none;
+    }
+    ::-webkit-scrollbar-track {
+        background: #0000;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #fff8;
+        border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #fffa;
+    }
+}
